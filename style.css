@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap);
+
+:root{
+    --cor-principal:#C0C0C0;
+    --cor-secundaria: #A9A9A9;
+    --cor-destaque: #808080;
+}
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+h1, h2, h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.lead, .btn-link{
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+a, .btn-link:hover {
+    color: var(--cor-principal);
+}
+
+a:hover{
+    color: var(--cor-principal);
+}
